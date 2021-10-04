@@ -25,7 +25,7 @@ def generate_random_password():
 
 	for i in range(alphabets_count):
 		password.append(random.choice(alphabets))
-hafhhafh
+
 
 	for i in range(digits_count):
 		password.append(random.choice(digits))
@@ -38,7 +38,7 @@ hafhhafh
 		random.shuffle(characters)
 		for i in range(length - characters_count):
 			password.append(random.choice(characters))
-
+print("hello")
 
 	random.shuffle(password)
 
